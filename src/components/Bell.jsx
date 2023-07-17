@@ -5,7 +5,7 @@ import arrow from "../images/arrow-narrow-right.png";
 const Bell = () => {
   return (
     <div className="container">
-      <div className="text-center my-4">
+      <div className="text-center my-4 mx-4">
         <div className="row">
           <div className="col-sm-4">
             <img src={bell} alt="" height={200} />

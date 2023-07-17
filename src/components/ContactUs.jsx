@@ -2,6 +2,7 @@ import React from "react";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import "../css/contact.css";
+import { Link } from "react-router-dom";
 
 const ContactUs = () => {
   return (
@@ -24,8 +25,12 @@ const ContactUs = () => {
                 <p className="pt-0">hi@mediaestate.com</p>
                 <p>Follow us: </p>
                 <div>
-                  <img src={instagram} alt="" />
-                  <img src={linkedin} alt="" className="px-2" />
+                  <Link to="https://instagram.com">
+                    <img src={instagram} alt="" className="mx-2" />
+                  </Link>
+                  <Link to="https://linkedin.com">
+                    <img src={linkedin} alt="" className="mx-2" />
+                  </Link>
                 </div>
               </div>
             </div>

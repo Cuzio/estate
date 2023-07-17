@@ -3,6 +3,7 @@ import AboutUs from "../components/AboutUs";
 import Mission from "../components/Mission";
 import Vission from "../components/Vission";
 import Footer from "../components/Footer";
+import Bell from "../components/Bell";
 
 const About = () => {
   return (
@@ -10,6 +11,7 @@ const About = () => {
       <AboutUs />
       <Mission />
       <Vission />
+      <Bell />
       <Footer />
     </div>
   );
