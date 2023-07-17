@@ -116,39 +116,6 @@ const Services = () => {
               <img src={desktop2} alt="" className="h-75 w-75" />
             </div>
           </div>
-
-          <div className="text-center my-4">
-            <div className="row">
-              <div className="col-sm-4">
-                <img src={bell} alt="" height={200} />
-              </div>
-              <div className="col-sm-4">
-                <h3>Be the first to get updated</h3>
-                <p>Enter your email and get update on our daily news letters</p>
-                <div class="input-group mb-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Email here..."
-                    aria-label="Recipient's username"
-                    aria-describedby="button-addon2"
-                  />
-                  <button
-                    class="btn "
-                    type="button"
-                    id="button-addon2"
-                    style={{ background: "white" }}
-                  >
-                    <img
-                      src={arrow}
-                      alt=""
-                      style={{ background: "#05A3A3", borderRadius: "50%" }}
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>

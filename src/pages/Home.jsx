@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Divider from "../components/Divider";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
+import Bell from "../components/Bell";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Divider />
       <Services />
+      <Bell />
       <Footer />
     </div>
   );

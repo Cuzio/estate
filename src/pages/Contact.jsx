@@ -1,9 +1,14 @@
 import React from "react";
+import ContactUs from "../components/ContactUs";
+import Bell from "../components/Bell";
+import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <ContactUs />
+      <Bell />
+      <Footer />
     </div>
   );
 };
