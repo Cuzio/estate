@@ -4,13 +4,14 @@ import sittingRoom from "../images/sitting-room.png";
 import teacher from "../images/teaching.png";
 import meeting from "../images/meeting.png";
 import sitOut from "../images/sit-out.png";
+import "../css/home.css";
 
 const Hero = () => {
   return (
     <div>
       <div className="container my-5">
         <div className="row justify-content-between ">
-          <div className="col-md-7 my-5">
+          <div className="col-md-6 my-md-5">
             <h1>
               Your Social media real estate agency that gets your dream house
             </h1>
@@ -23,39 +24,15 @@ const Hero = () => {
               Let’s connect <img src={arrow} alt="arrow" />
             </button>
           </div>
-          <div className="col-md-5 my-4 mx-auto">
+          <div className="col-md-5 mx-auto">
             <div className="d-flex justify-content-evenly">
               <div>
-                <img
-                  src={sittingRoom}
-                  alt="sittingRoom"
-                  // height={150}
-                  // width={200}
-                  className="w-75 h-25 my-4"
-                />
-                <img
-                  src={teacher}
-                  alt="sittingRoom"
-                  // height={200}
-                  // width={200}
-                  className="w-75 h-50 my-4"
-                />
+                <img src={sittingRoom} alt="sittingRoom" className="m-2 img1" />
+                <img src={teacher} alt="sittingRoom" className="m-2 img2" />
               </div>
               <div>
-                <img
-                  src={meeting}
-                  alt="sittingRoom"
-                  // height={200}
-                  // width={200}
-                  className="w-75 h-50 my-4"
-                />
-                <img
-                  src={sitOut}
-                  alt="sittingRoom"
-                  // height={150}
-                  // width={200}
-                  className="w-75 h-25 my-4"
-                />
+                <img src={meeting} alt="sittingRoom" className="m-2 img2" />
+                <img src={sitOut} alt="sittingRoom" className="m-2 img1" />
               </div>
             </div>
           </div>

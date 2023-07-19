@@ -10,7 +10,7 @@ const Bell = () => {
           <div className="col-sm-4">
             <img src={bell} alt="" height={200} />
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-6">
             <h3>Be the first to get updated</h3>
             <p>Enter your email and get update on our daily news letters</p>
             <div class="input-group mb-3">

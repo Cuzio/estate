@@ -4,8 +4,7 @@ import phone1 from "../images/phone1.png";
 import phone2 from "../images/phone2.png";
 import desktop1 from "../images/desktop1.png";
 import desktop2 from "../images/desktop2.png";
-import bell from "../images/Notification bell 3d cartoon style icon on white background  1.png";
-import arrow from "../images/arrow-narrow-right.png";
+import "../css/home.css";
 
 const Services = () => {
   return (
@@ -20,7 +19,7 @@ const Services = () => {
             </p>
           </div>
           <div className="row my-5">
-            <div className="col-sm-4">
+            <div className="col-sm-4 cab">
               <div
                 class="card"
                 style={{ backgroundColor: "inherit", border: "none" }}
@@ -47,7 +46,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-sm-4">
+            <div className="col-sm-4 cab">
               <div
                 class="card"
                 style={{ backgroundColor: "inherit", border: "none" }}
@@ -74,7 +73,7 @@ const Services = () => {
               </div>
             </div>
 
-            <div className="col-sm-4">
+            <div className="col-sm-4 cab">
               <div
                 class="card"
                 style={{ backgroundColor: "inherit", border: "none" }}
@@ -107,13 +106,13 @@ const Services = () => {
               Your social media tracking made easy with our leading team of
               expertise, you have nothing to worry about.
             </h3>
-            <div className="my-4">
-              <img src={desktop1} alt="" className="h-75 w-75" />
-              <img src={phone1} alt="" className="h-75 w-50 mx-4" />
+            <div className="media d-md-flex">
+              <img src={desktop1} alt="" className="desktop" />
+              <img src={phone1} alt="" className="phone phone1" />
             </div>
-            <div>
-              <img src={phone2} alt="" className="h-75 w-50 mx-4" />
-              <img src={desktop2} alt="" className="h-75 w-75" />
+            <div className="media2 d-md-flex">
+              <img src={phone2} alt="" className="phone" />
+              <img src={desktop2} alt="" className="desktop desktop2" />
             </div>
           </div>
         </div>

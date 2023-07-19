@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+  .img1 {
+    height: 30vh;
+    width: 20vw;
+  }
+  .img2 {
+    height: 50vh;
+    width: 20vw;
+  }
+  .desktop {
+    height: 35vh;
+    width: 40vw;
+  }
+  .phone {
+    height: 35vh;
+    width: 30vw;
+  }
+  .phone1 {
+    margin-left: 1rem;
+  }
+  .desktop2 {
+    margin-left: 1rem;
+  }
+  .media {
+    margin: 1rem 4rem;
+  }
+  .media2 {
+    margin: 0 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img1 {
+    height: 20vh;
+    width: 40vw;
+  }
+  .img2 {
+    height: 40vh;
+    width: 40vw;
+  }
+  .desktop {
+    height: 30vh;
+    width: 90vw;
+    margin: 1rem auto;
+  }
+  .phone {
+    height: 30vh;
+    width: 90vw;
+    margin: 1rem auto;
+  }
+  .phone1 {
+    margin-left: 0;
+  }
+  .desktop2 {
+    margin-left: 0;
+  }
+  .media {
+    margin: 0;
+  }
+  .media2 {
+    margin: 0;
+  }
+  .cab {
+    margin: 2rem 0;
+  }
+}
