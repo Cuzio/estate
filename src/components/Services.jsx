@@ -9,7 +9,7 @@ import "../css/home.css";
 const Services = () => {
   return (
     <div>
-      <section>
+      <section className="service">
         <div className="container">
           <div className="text-center my-5">
             <h1>Our Services</h1>

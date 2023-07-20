@@ -11,7 +11,7 @@ const ContactUs = () => {
         <div className="row">
           <div className="get col-sm-6">
             <div className="place text-white">
-              <h2 className="fs-1 fw-bold">Get in Touch</h2>
+              <h2 className="fs-1 fw-bold touch">Get in Touch</h2>
               <p className="fs-6">
                 Reach out to us , we can make something together
               </p>
@@ -38,7 +38,7 @@ const ContactUs = () => {
 
           <div className="col-sm-6">
             <div className="place">
-              <h2>Contact us</h2>
+              <h2 className="contact">Contact us</h2>
               <div className="mb-3">
                 <label for="exampleFormControlInput1" className="form-label">
                   Full name

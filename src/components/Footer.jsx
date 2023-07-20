@@ -3,6 +3,7 @@ import logo from "../images/katman 3.png";
 import instagram from "../images/instagram.png";
 import linkedin from "../images/linkedin.png";
 import { Link } from "react-router-dom";
+import "../css/footer.css";
 
 const Footer = () => {
   return (
@@ -18,22 +19,25 @@ const Footer = () => {
       <div className="container my-5">
         <div className="row align-items-center">
           <div className="col-sm-4">
-            <div className="d-flex">
-              <img src={logo} alt="" height={30} className="mx-1" />
-              <h3 className="mx-1">Madya Estate</h3>
+            <div className="d-md-flex madya">
+              <img src={logo} alt="" height={30} className="mx-1 logo" />
+              <h3 className="mx-md-1 estate">Madya Estate</h3>
             </div>
           </div>
 
-          <div className="col-sm-5 my-4 ">
-            <Link to="/" className="text-decoration-none mx-2 text-light">
+          <div className="col-sm-5 my-4 move ">
+            <Link to="/" className="text-decoration-none mx-2 text-light list">
               Home
             </Link>
-            <Link to="/about" className="text-decoration-none mx-2 text-light">
+            <Link
+              to="/about"
+              className="text-decoration-none mx-2 text-light list"
+            >
               About
             </Link>
             <Link
               to="/contact"
-              className="text-decoration-none mx-2 text-light"
+              className="text-decoration-none mx-2 text-light list"
             >
               Contact
             </Link>

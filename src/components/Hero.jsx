@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div>
       <div className="container my-5">
-        <div className="row justify-content-between ">
+        <div className="row justify-content-between hero ">
           <div className="col-md-6 my-md-5">
             <h1>
               Your Social media real estate agency that gets your dream house

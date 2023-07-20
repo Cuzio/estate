@@ -1,12 +1,13 @@
 import React from "react";
 import arrow from "../images/arrow-narrow-right.png";
 import people from "../images/people.png";
+import "../css/mission.css";
 
 const AboutUs = () => {
   return (
     <div className="container my-5">
       <div className="row">
-        <div className="col-sm-6">
+        <div className="col-sm-6 about">
           <h1>About Us</h1>
           <p>
             Medya is a social Media Marketing Agency focused on the real estate

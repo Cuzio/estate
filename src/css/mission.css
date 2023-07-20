@@ -1,0 +1,48 @@
+@media screen and (min-width: 768px) {
+  .why,
+  .mission h2,
+  .about h1 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+  }
+  .mission,
+  .about {
+    align-items: center;
+    justify-content: center;
+    padding-top: 8rem;
+    font-family: "DM Sans", sans-serif;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+  }
+  .meeting {
+    margin-top: -5rem;
+    margin-left: 10rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .why,
+  .mission h2,
+  .about h1 {
+    font-family: "Sora", sans-serif;
+    font-weight: 700;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+  }
+  .meeting {
+    margin-top: -4rem;
+    margin-left: 8rem;
+  }
+  .mission,
+  .about {
+    font-family: "DM Sans", sans-serif;
+  }
+  .image2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
