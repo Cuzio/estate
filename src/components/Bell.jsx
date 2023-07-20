@@ -1,12 +1,13 @@
 import React from "react";
 import bell from "../images/Notification bell 3d cartoon style icon on white background  1.png";
 import arrow from "../images/arrow-narrow-right.png";
+import "../css/bell.css";
 
 const Bell = () => {
   return (
     <div className="container">
       <div className="text-center my-4 mx-4">
-        <div className="row">
+        <div className="row bell">
           <div className="col-sm-4">
             <img src={bell} alt="" height={200} />
           </div>
